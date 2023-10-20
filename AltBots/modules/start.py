@@ -14,7 +14,7 @@ START_BUTTON = [
     ],
     [
         Button.url("🌿 𝚁𝙴𝙿𝙾 🌿", "https://graph.org/file/1cec00803e0497f6794f3.mp4"),
-        Button.url("💘 𝙼𝚈 𝙿𝙰𝙿𝙰 💘", "https://t.me/Saif_Dictator")
+        Button.url("💘 𝙼𝚈 𝙿𝙰𝙿𝙰 💘", "https://t.me/bot0078")
     ]
 ]
 
