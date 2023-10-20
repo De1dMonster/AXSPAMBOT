@@ -12,7 +12,7 @@ HELP_BUTTON = [
     ],
     [
       Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/bot0078")
     ],
     [
       Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Dead_SupportChat"),
