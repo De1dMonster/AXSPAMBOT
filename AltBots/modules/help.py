@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @bot0078r,@Saif_Dictator**"
+HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @abhishekx9,@Saif_Dictator**"
 
 HELP_BUTTON = [
     [
@@ -12,7 +12,7 @@ HELP_BUTTON = [
     ],
     [
       Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/bot0078")
+      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/abhishekx9")
     ],
     [
       Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Dead_SupportChat"),
@@ -35,7 +35,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/4d811a985dedfe0cb135c.jpg",
+              "https://graph.org/file/096145886c162bba7b606.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -135,7 +135,7 @@ async def helpback(event):
               ],
               [
                 Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/bot0078")
+                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/abhishekx9")
               ],
                          
                 Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
@@ -181,7 +181,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɪғ sᴘᴀᴍ  ʙᴏᴛa !! @Saif_Dictator", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -200,4 +200,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴀɪғ sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
