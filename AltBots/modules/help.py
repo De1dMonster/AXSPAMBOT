@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
+HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @bot0078r,@Saif_Dictator**"
 
 HELP_BUTTON = [
     [
@@ -135,7 +135,7 @@ async def helpback(event):
               ],
               [
                 Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/bot0078")
               ],
                          
                 Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
