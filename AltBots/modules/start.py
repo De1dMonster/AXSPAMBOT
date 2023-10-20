@@ -6,7 +6,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 START_BUTTON = [
     [
         Button.inline("🌺 ᴄᴏᴍᴍᴀɴᴅs 🌺", data="help_back"),
-        Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/bot0078")
+        Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/abhishekx9")
     ],
     [
         Button.url("🌼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🌼", "https://t.me/Dead_SupportChat"),
@@ -14,7 +14,7 @@ START_BUTTON = [
     ],
     [
         Button.url("🌿 𝚁𝙴𝙿𝙾 🌿", "https://graph.org/file/1cec00803e0497f6794f3.mp4"),
-        Button.url("💘 𝙼𝚈 𝙿𝙰𝙿𝙰 💘", "https://t.me/bot0078")
+        Button.url("💘 𝙼𝚈 𝙿𝙰𝙿𝙰 💘", "https://t.me/abhishekx9")
     ]
 ]
 
@@ -36,13 +36,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝖲𝖠𝖨𝖥](https://t.me/bot0078)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗦𝗔𝗜𝗙](https://t.me/abhishekx9)**\n\n"
         TEXT += f"» **ᴅᴇᴀᴅ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/4d811a985dedfe0cb135c.jpg",
+                    "https://graph.org/file/096145886c162bba7b606.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
 )
